@@ -85,7 +85,7 @@ def find_pigments(artwork_input, color_family):
                 impossible_pigments.append(pigment)
 
     # Step 3: Display the results
-    print(f"\n--- Artwork Age：{artwork_input} | Color：{color_family} ---")
+    print(f"\n--- Artwork Year：{artwork_input} | Color：{color_family} ---")
 
     # if any matching pigments are found
     # Correct logic for handling colors not in the database
